@@ -7,7 +7,6 @@
 #include <iterator>
 #include <algorithm>
 
-
 using namespace std;
 
 int main()
@@ -15,9 +14,6 @@ int main()
     setlocale(LC_ALL, "rus");
     int a;
     list <int> lst1, lst2;
-   /* list <int>::iterator it1 = lst2.begin();
-    list <int>::iterator it2 = lst2.begin();
-    list <int>::iterator beg = lst1.begin();*/
     cout << "Введите длину первого списка: ";
     int n1;
     cin >> n1;
